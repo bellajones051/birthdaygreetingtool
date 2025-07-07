@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Greeting Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Birthday Greeting Tool</h1>
+        
+        <div>
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" placeholder="Your Name">
+        </div>
+        
+        <div>
+            <label for="dob">Enter Your Date of Birth:</label>
+            <input type="date" id="dob">
+        </div>
+        
+        <div>
+            <button onclick="generateGreeting()">Get Your Greeting</button>
+        </div>
+        
+        <div id="greeting-message"></div>
+        <div id="birthday-info"></div>
+    </div>
+
+    <footer>
+        <p>Made with ❤️ by <a href="https://thegratuitycalculatoruae.ae/" target="_blank">The Gratuity Calculator UAE</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
